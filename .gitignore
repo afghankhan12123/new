@@ -1,0 +1,70 @@
+# Gradle
+.gradle/
+build/
+buildSrc/build/
+!gradle/wrapper/gradle-wrapper.jar
+local.properties
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Kotlin
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Signing
+*.jks
+*.keystore
+
+# Misc
+*.log
+output-metadata.json
+
+# Kotlin compiler sessions
+.kotlin/
+
+# Local Python caches and the user-provided reference evidence archive
+__pycache__/
+/docs/evidence/milestone-3.zip
+
+# Preserved local release evidence; indexed in release documentation
+/deliverables/
+/docs/evidence/first-release/
+
+# User-supplied visual evidence, preserved locally rather than committed as source
+/final1.zip
+/final1/
+
+# Public source distribution: reference inputs and generated private evidence
+/fancut/
+/video_editor_target_asset_kit/
+/docs/evidence/
+/logcat/
+/adb/
+/-c/
+*.apk
+*.aab
+*.apks
+*.hprof
+*.trace
+
+# Local credentials and service configuration (commit examples instead)
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+*.pem
+*.key
+google-services.json
+service-account*.json
+credentials.json

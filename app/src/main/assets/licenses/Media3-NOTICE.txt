@@ -1,0 +1,36 @@
+AndroidX Media3 composition playback source
+Copyright 2023 The Android Open Source Project
+Licensed under the Apache License, Version 2.0 (Apache-2.0.txt).
+
+This application includes a modified copy of Media3 1.5.1 CompositionPlayer,
+renamed PatchedCompositionPlayer. Changes align clipped media period offsets
+and map constant-speed initial positions. Upstream static-analysis annotations
+were removed. See docs/third-party/MEDIA3_PREVIEW_PATCH.md in the source tree.
+Upstream source:
+https://github.com/androidx/media/blob/1.5.1/libraries/transformer/src/main/java/androidx/media3/transformer/CompositionPlayer.java
+
+Preview-only multi-input adaptations (pinned to Media3 1.5.1):
+Copyright 2023, 2024 The Android Open Source Project
+- PlaybackVideoGraphWrapper -> MultiInputPlaybackVideoGraphWrapper
+- CompositionPlayerInternal -> PreviewCompositionPlayerInternal
+- MultipleInputVideoGraph -> CancellablePreviewVideoGraph
+- DefaultVideoCompositor -> PreviewVideoCompositor
+
+Changes add independent visual input routing, cancellation ownership, ordered
+compositing, clock-paced output and safe preview replacement. Source headers and
+Apache-2.0 license are preserved. Upstream Transformer export remains unchanged.
+Upstream source directories:
+https://github.com/androidx/media/tree/1.5.1/libraries/exoplayer/src/main/java/androidx/media3/exoplayer/video
+https://github.com/androidx/media/tree/1.5.1/libraries/transformer/src/main/java/androidx/media3/transformer
+https://github.com/androidx/media/tree/1.5.1/libraries/effect/src/main/java/androidx/media3/effect
+
+Stage 6 transition-scoped adaptations (pinned Media3 1.5.1):
+Copyright 2016, 2022, 2023, 2024 The Android Open Source Project
+- ClippingMediaPeriod: bounded AVC dependency loading; codec qualification
+  before renderer format reads; ordinary clipping behavior retained.
+- ExoAssetLoaderVideoRenderer: reference-only pictures are decoded but not
+  presented; borrowed visible frames drain before decoder EOS release.
+- PatchedCompositionPlayer: transition-only codec-availability wakeups.
+The build derives replacement AARs without modifying original dependencies.
+Apache-2.0 headers and license are preserved. Source hashes and modification
+records are in docs/third-party/MEDIA3_PREVIEW_PATCH.md.

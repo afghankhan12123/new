@@ -1,0 +1,307 @@
+{
+  "scope": "Reference fixture only; Android/clipping/export acceptance OPEN",
+  "generator": "xorshift32, integer triangular-envelope coded bursts; seed 0x6d2b79f5",
+  "ffmpeg": "ffmpeg version 9.0.1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "rates": [
+    {
+      "sample_rate": 44100,
+      "channels": 1,
+      "master_samples": 264600,
+      "events": [
+        {
+          "id": 0,
+          "source_start_sample": 0,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            0,
+            44100
+          ]
+        },
+        {
+          "id": 1,
+          "source_start_sample": 137,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            137000000,
+            44100
+          ]
+        },
+        {
+          "id": 2,
+          "source_start_sample": 8851,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            8851000000,
+            44100
+          ]
+        },
+        {
+          "id": 3,
+          "source_start_sample": 42799,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            42799000000,
+            44100
+          ]
+        },
+        {
+          "id": 4,
+          "source_start_sample": 44017,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            44017000000,
+            44100
+          ]
+        },
+        {
+          "id": 5,
+          "source_start_sample": 44147,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            44147000000,
+            44100
+          ]
+        },
+        {
+          "id": 6,
+          "source_start_sample": 45697,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            45697000000,
+            44100
+          ]
+        },
+        {
+          "id": 7,
+          "source_start_sample": 88519,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            88519000000,
+            44100
+          ]
+        },
+        {
+          "id": 8,
+          "source_start_sample": 131197,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            131197000000,
+            44100
+          ]
+        },
+        {
+          "id": 9,
+          "source_start_sample": 132229,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            132229000000,
+            44100
+          ]
+        },
+        {
+          "id": 10,
+          "source_start_sample": 132353,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            132353000000,
+            44100
+          ]
+        },
+        {
+          "id": 11,
+          "source_start_sample": 177397,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            177397000000,
+            44100
+          ]
+        },
+        {
+          "id": 12,
+          "source_start_sample": 262551,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            262551000000,
+            44100
+          ]
+        },
+        {
+          "id": 13,
+          "source_start_sample": 264343,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            264343000000,
+            44100
+          ]
+        }
+      ],
+      "ffmpeg_decoded_samples": 264600,
+      "encoder": "FFmpeg native AAC LC, 192000 bit/s",
+      "clip_start_samples": [
+        0,
+        44100,
+        51199,
+        51200,
+        51201,
+        44147,
+        261527
+      ],
+      "files": {
+        "44100.wav": "0cf7be5cb29a6e9e21e567c983b4dc42cc84116c0055ac25a267a2ac25bba747",
+        "44100.m4a": "1282c71d3a7865f2509cec02a4d8b2a41475f3e31193de943b5157ed47f76a28",
+        "44100.ffmpeg.s16le": "6001c3c643794d4045d13b72f86ba6119430181dfa2e719a9b4181b9dc2afa03",
+        "44100.ffprobe.json": "ff647beb6abe12c12371dbee9bba80f01b46395f3adfe280a42e8e952582d83e"
+      }
+    },
+    {
+      "sample_rate": 48000,
+      "channels": 1,
+      "master_samples": 288000,
+      "events": [
+        {
+          "id": 0,
+          "source_start_sample": 0,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            0,
+            48000
+          ]
+        },
+        {
+          "id": 1,
+          "source_start_sample": 137,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            137000000,
+            48000
+          ]
+        },
+        {
+          "id": 2,
+          "source_start_sample": 9631,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            9631000000,
+            48000
+          ]
+        },
+        {
+          "id": 3,
+          "source_start_sample": 46699,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            46699000000,
+            48000
+          ]
+        },
+        {
+          "id": 4,
+          "source_start_sample": 47917,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            47917000000,
+            48000
+          ]
+        },
+        {
+          "id": 5,
+          "source_start_sample": 48047,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            48047000000,
+            48000
+          ]
+        },
+        {
+          "id": 6,
+          "source_start_sample": 49597,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            49597000000,
+            48000
+          ]
+        },
+        {
+          "id": 7,
+          "source_start_sample": 96319,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            96319000000,
+            48000
+          ]
+        },
+        {
+          "id": 8,
+          "source_start_sample": 142897,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            142897000000,
+            48000
+          ]
+        },
+        {
+          "id": 9,
+          "source_start_sample": 143929,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            143929000000,
+            48000
+          ]
+        },
+        {
+          "id": 10,
+          "source_start_sample": 144053,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            144053000000,
+            48000
+          ]
+        },
+        {
+          "id": 11,
+          "source_start_sample": 192997,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            192997000000,
+            48000
+          ]
+        },
+        {
+          "id": 12,
+          "source_start_sample": 285951,
+          "length_samples": 127,
+          "source_time_us_rational": [
+            285951000000,
+            48000
+          ]
+        },
+        {
+          "id": 13,
+          "source_start_sample": 287743,
+          "length_samples": 193,
+          "source_time_us_rational": [
+            287743000000,
+            48000
+          ]
+        }
+      ],
+      "ffmpeg_decoded_samples": 288000,
+      "encoder": "FFmpeg native AAC LC, 192000 bit/s",
+      "clip_start_samples": [
+        0,
+        48000,
+        51199,
+        51200,
+        51201,
+        48047,
+        284927
+      ],
+      "files": {
+        "48000.wav": "3d527789d25808699bc9f8d9441c45acdaed5b217841cfa3c5b906ae03700d5f",
+        "48000.m4a": "1f2900d821f38007b70fb3323c15f1b2e6902ad2ce2d6046824672b1911a339d",
+        "48000.ffmpeg.s16le": "1e42f6ea275d63df55b20b9aae7cbe460f0860c5be4705eac43793e8503fb321",
+        "48000.ffprobe.json": "efde3f68e84b1ae6ed23088bb354a5f62bf8824923506c74c8a5822a4f7a2873"
+      }
+    }
+  ]
+}

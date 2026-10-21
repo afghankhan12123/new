@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- Exported MP4s live in cacheDir/exports; expose them via content URIs
+         for sharing without granting broad storage access. -->
+    <files-path name="captured_media" path="captures/" />
+    <files-path name="persistent_exports" path="exports/" />
+    <cache-path name="exports" path="exports/" />
+</paths>

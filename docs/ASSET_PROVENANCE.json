@@ -1,0 +1,537 @@
+{
+  "recorded_on": "2026-10-22",
+  "provenance": "Project owner states the supplied asset kit and bundled premium artwork were generated with ChatGPT; owner explicitly requested public source publication.",
+  "license_note": "No additional project-wide or third-party stock-art license assigned.",
+  "files": [
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_adjust.xml",
+      "sha256": "937bd82c22ae74ac88fab7ba464f97ff4809b3e53765de6fa3678be6ef4f8504",
+      "bytes": 1062
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_align_center.xml",
+      "sha256": "7124ff9c0da4676fc05e2c5dc244e7839b63f3af61ec56cbc50a1ea863d12989",
+      "bytes": 386
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_align_left.xml",
+      "sha256": "b9ab7f28ccae7c2c091a374ee415aa8e85b3089f7348c4f2062a5d1868ce039a",
+      "bytes": 384
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_align_right.xml",
+      "sha256": "c97afe1df06da88fe37d950b92732f7fc19f89b829e10caf9176591eded90cec",
+      "bytes": 386
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_arrow_right.xml",
+      "sha256": "8584a402f6095727de0d8af3f32d18af800199da07b19d455dd28a1a57d08028",
+      "bytes": 404
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_audio.xml",
+      "sha256": "297ab0d6dddd2d1eb1f1d3f510114c34f20e6f13c3f518e7ac95286ddc59afd8",
+      "bytes": 831
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_back.xml",
+      "sha256": "fa122594beb7456cc8b366128814d94fd658dea506ad2ec2ae76d142d5cbfe0a",
+      "bytes": 406
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_canvas.xml",
+      "sha256": "c1a2423632c4310218d7604d4bcee56040d28d7b7f3743392c19533d2a267f02",
+      "bytes": 652
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_check.xml",
+      "sha256": "d4dab65264f850e064b836f5fde8b93ef3725a4f431debe67dc6bb50412f91d1",
+      "bytes": 369
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_chevron_down.xml",
+      "sha256": "cc1adca557296553fe1da859a17c3d84f90c50b859ce1c2fad0b54e4a77c6cd1",
+      "bytes": 367
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_close.xml",
+      "sha256": "0369168dd73441deb970b27915b99f334e8262408bde489ff9b2dee8fd0a5031",
+      "bytes": 375
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_crop.xml",
+      "sha256": "011f2c3b95617406307dfdb949dd17cac3c5b61dea177849cab46b10f13efa7a",
+      "bytes": 403
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_crop_ratio.xml",
+      "sha256": "299ef5ddb64d490f79163b5824ecaa2b6670962c6d3555e0aabd3bc9e076f5fa",
+      "bytes": 642
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_delete.xml",
+      "sha256": "13ecd98573cb50f63a24b1a8c4cae5459ec965cb127ceb7611054352ec2aeb0c",
+      "bytes": 405
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_duplicate.xml",
+      "sha256": "146c2d7779480bf68944fbdbfbdf521f29282ab1ddc0ee7009071a818b6532a7",
+      "bytes": 738
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_edit.xml",
+      "sha256": "9606c1a564e0569fa16526682922c230d81ac6a3a4c35a0e6b09032ac3d5a3f2",
+      "bytes": 856
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_fade.xml",
+      "sha256": "e0b3db607f939d3f5145e6bc3350063a4ed5190ac77c7b2aa7a255f598f48020",
+      "bytes": 384
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_filters.xml",
+      "sha256": "84afaf1496f9fa4982c52e6cafd559c067b66425b780f7104d8fe1e54ed0e39b",
+      "bytes": 870
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_flip_horizontal.xml",
+      "sha256": "c96bcbba26131cc27b7950e2990bf577f57352c3e0df66c7c3f34b09694d16ed",
+      "bytes": 395
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_fullscreen.xml",
+      "sha256": "e6befe963749c3f7f19dfd0a17e7bc80d4f2c057e51d4d1768cc3a70329ab40d",
+      "bytes": 393
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_image.xml",
+      "sha256": "159053e4530d582449a2d636030bdb7c71708b4caaa2db53174d197dc922c883",
+      "bytes": 884
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_layers.xml",
+      "sha256": "bcaf7e1bdf53f7d4386bd5c3b187468a11e9afcf7cc41fb7e4e73ec41f1bb3c3",
+      "bytes": 410
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_lock.xml",
+      "sha256": "f31180bbb28fcd65102bfdd68bad9eef69414f7d19e3649984becd01125cc404",
+      "bytes": 663
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_more.xml",
+      "sha256": "30ad7e77caf5546a8ca04f8df5ef43f8d6db617329953bc1438781d7f2ba3288",
+      "bytes": 867
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_music.xml",
+      "sha256": "aa508776d5fa2ffda03d25618723ea1eaa031664e7c9215729581f01e84917f9",
+      "bytes": 831
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_panel.xml",
+      "sha256": "b64f47770c0b4b736ab8a8a3fb38a9b5d477693d0514dd0f5ff66da3dc327be9",
+      "bytes": 642
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_pause.xml",
+      "sha256": "5781c66cc94a40e4b86de20207f92b55f255637612d97c415937fd5a3f8f1f49",
+      "bytes": 368
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_picture_in_picture.xml",
+      "sha256": "5497e3d8430942dcdf2de601c86bacc9f23cc04aabce6837dfc86793b6df4a23",
+      "bytes": 745
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_play.xml",
+      "sha256": "93bcb2cd5eb13ca01edf21e62394ce58a455a058a46bdfe72ead727edc61af99",
+      "bytes": 372
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_plus.xml",
+      "sha256": "0068782fbff65ee2655812ae48fd7d26e13eff2300cbedd539b08e7d9597fba0",
+      "bytes": 371
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_redo.xml",
+      "sha256": "356e7e74269c0a07171529c502a9689f4187705d07e01353695067bb1de7889f",
+      "bytes": 418
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_reset.xml",
+      "sha256": "38b52eeb893329a67bc4563890422aafbc6ec9662b96d266648cb6fd090cd818",
+      "bytes": 382
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_rotate.xml",
+      "sha256": "8a0038a8ea8d00dade3e87dac5f3a857987a90e7fe2424f0ffbed5181c1b0f67",
+      "bytes": 384
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_search.xml",
+      "sha256": "7e21df4710fd9cbce3023d3a04ba8cd22eecce9f546cc3bd604e881210dd5dfd",
+      "bytes": 601
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_speed.xml",
+      "sha256": "e6365999b906270f3246b77dd2f5833fe1956e96108cc2063c09eda33e655f7e",
+      "bytes": 800
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_split.xml",
+      "sha256": "780c860d4bde992158a403f6f460742c4e3d10c89066ff5eaf35e17fb245b22a",
+      "bytes": 378
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_stickers.xml",
+      "sha256": "ef022ef63e801f9a45d83b641b01b8400391e45655c3765aabc679f16644d22a",
+      "bytes": 623
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_text.xml",
+      "sha256": "55b5af1b7f584423f9ab405c8afe2c3ba8d188933cdaac03bd456a190ddac979",
+      "bytes": 377
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_transitions.xml",
+      "sha256": "d4a9c7d886cc9c3b20e80c7d5a4f85dbc7570c70b21c9f91ea92421fb55736e6",
+      "bytes": 386
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_trim.xml",
+      "sha256": "61473435f6ac40c38f4f66dc480097901fcae180b5dc961bf33f091793fbc0a9",
+      "bytes": 379
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_undo.xml",
+      "sha256": "bbf58b788b9b8df16065205c456df779995ea06a740113d0a4c336d61266d5a6",
+      "bytes": 416
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_unlock.xml",
+      "sha256": "0d268d9d243b55cef6d40dbf386681443a3767a69545204f44dd7e4b847e7f4e",
+      "bytes": 662
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_video.xml",
+      "sha256": "e78be31fb838094451cedbfc0cb5d0b01e043244742aeb4092ec6c0cad9ba7df",
+      "bytes": 652
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_voiceover.xml",
+      "sha256": "23d738085d79fa4744aa8604de126c47b03e978a33b100ce63563c998b054e17",
+      "bytes": 672
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable/ic_editor_volume.xml",
+      "sha256": "cb39e8720dd19cd0cde1fe63ab3495013bdce3ccfcfe3cbab0a03b707b999791",
+      "bytes": 419
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_effect_black_white.png",
+      "sha256": "20e64303bb0968bab34204f3ca6df9c17de69fd0024d39ac01d47cc11b4fc98c",
+      "bytes": 32140
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_effect_film.png",
+      "sha256": "8989bf5fdd44d2b2953482bbb047e1ea94008066cfdaef877aa65e63738ee824",
+      "bytes": 77673
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_effect_glow.png",
+      "sha256": "63f2990632a329340f91bcb6869339c918154e47489ca5580c64518f6e2ac378",
+      "bytes": 52237
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_effect_none.png",
+      "sha256": "403487699adf3f52f00b4b8a3822c7ae16b17fac047d95d2c03e14d86f03df9c",
+      "bytes": 57748
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_effect_soft.png",
+      "sha256": "5cae0f8a4b0cdf40db2d2741d6aa0c4fbe123f76d16699e2b09d9d6210abf634",
+      "bytes": 34853
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_effect_vivid.png",
+      "sha256": "48809d31f1906fe09ca06737fc59983b03e44a9d929be58d7e756c3489f167bf",
+      "bytes": 54927
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_effect_warm.png",
+      "sha256": "9495f5753a356573d3b9e8dfdbf2bfc0d3d2f46b7cbd1433f0605693623ddaeb",
+      "bytes": 56591
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_airplane.png",
+      "sha256": "1a5a9626f1e2a9c9d46b4cc5b66210d4e63204338394a40507d7f521d1e55321",
+      "bytes": 3926
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_checkmark.png",
+      "sha256": "9e77dcdfe766352cbbb990dacddff5aef15a6249110bac757a143b1d945f8511",
+      "bytes": 4249
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_circle.png",
+      "sha256": "f92c633af6bc049bc6f19765c39bbd8cd6b1ac119ee508cd5495b2f4f952d687",
+      "bytes": 4406
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_crown.png",
+      "sha256": "bbc55b26c57a3183867e88e8ae9edae5f3f9cb657aecdb8a12b560501f977fc0",
+      "bytes": 3684
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_diamond.png",
+      "sha256": "bf80daecf05cb5655e8cb8f69f96f94f3c365fd2f340add44a534207b0af98ae",
+      "bytes": 2242
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_fire.png",
+      "sha256": "f843448d17d6042179f6778a138b13c059a5e053638d12081bc5a4732235d138",
+      "bytes": 5185
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_flag.png",
+      "sha256": "c1363c278c2b72089dd35d3cb0e528abb93f74865edfe19d5271567de725a824",
+      "bytes": 2611
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_flower.png",
+      "sha256": "e4784e0b2ca4845c6a0126c6fc5be2b585633cb67cac0b59bf6ad2b7a462e38e",
+      "bytes": 7641
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_heart.png",
+      "sha256": "a80ca0527792adfbd254cc0221d9ee3295cf9e89159f78ef8a2d3e79eae29c9b",
+      "bytes": 4099
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_hexagon.png",
+      "sha256": "7a905ea1d7acd3fd752891c8a21cc109b38e489a77ffa5a31c0c183b9975075b",
+      "bytes": 4255
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_left_arrow.png",
+      "sha256": "b567e5becbc73903461d8a8e05360e461c6eb04691f74830a3490a7b7db6a2ba",
+      "bytes": 2693
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_lightning.png",
+      "sha256": "90652e361aeb9228df7ea495be017c7a6721a0b18284ec445f1a9559b90bf0b0",
+      "bytes": 3259
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_music_note.png",
+      "sha256": "db507caf31ea290e7e616d831020e6da8fc53f9b9493ba0e50b174c7d26cf065",
+      "bytes": 3278
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_plus.png",
+      "sha256": "f016fde460a1f048b87e442f7cc56017bbceea6b9af5dffbd8367324ba99dea2",
+      "bytes": 980
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_right_arrow.png",
+      "sha256": "fbef015a3cfe5c2783dea3974417836213ca0c156f94309826945853a95299fe",
+      "bytes": 2472
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_smile.png",
+      "sha256": "3960c9b91f90ef59b0b94a309a22a03e5699a6d1fb74e25b54b913bbd3f8349f",
+      "bytes": 7807
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_sparkle.png",
+      "sha256": "7557c3f0e9e791a5453fba43306c8afacec2afbd14ae6194c75420f887834461",
+      "bytes": 3636
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_sparkles.png",
+      "sha256": "849f2ba3b030323a6f8148392ea49c6d550dc95dcf5b62445cb5afb865ded090",
+      "bytes": 3774
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_speech_bubble.png",
+      "sha256": "f443cd296d521799d0d94fb7f12da87ed0a60511956af587b1777bc528aee040",
+      "bytes": 4418
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_square.png",
+      "sha256": "3d7fe332ede260a3101e6fbabd26d0be93c9fe2d46e15875dcd7a2c475ee61b6",
+      "bytes": 1811
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_star.png",
+      "sha256": "2e3fdaffa4388809007a05e5714b06162b5e1f767568ca0b4d25787a090a0157",
+      "bytes": 4651
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_sun.png",
+      "sha256": "7cebf8885bb2c7abd83f0d5bf15187a7a79267796bd0f0cce87d4d8a9394254b",
+      "bytes": 5214
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_kit_sticker_triangle.png",
+      "sha256": "45b566a387acf8713fa2478227d8ca9675b77b57ac4ea5c89e1c54c5d983c029",
+      "bytes": 4225
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_sticker_premium_heart.webp",
+      "sha256": "3f3e062cd9b3861104832e1e651f224f55b915b44ebdb86ca18f8384105084b9",
+      "bytes": 30796
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_sticker_premium_sparkle.webp",
+      "sha256": "5542fa22d1a9cacfbcc328017d22f7c2c03902b6172ebce661beff088e776859",
+      "bytes": 27110
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_sticker_premium_star.webp",
+      "sha256": "45b344244aa3be6775ba2effef957b42197dffb61d224c01800b4c97c3966f9a",
+      "bytes": 39210
+    },
+    {
+      "path": "feature/editor/src/main/res/drawable-nodpi/editor_sticker_premium_sun.webp",
+      "sha256": "fa4f03bbeb4a110944ca55a93be049953f73bf1f5986b4921a4dddca1fcd27fa",
+      "bytes": 48732
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_airplane.png",
+      "sha256": "1a5a9626f1e2a9c9d46b4cc5b66210d4e63204338394a40507d7f521d1e55321",
+      "bytes": 3926
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_checkmark.png",
+      "sha256": "9e77dcdfe766352cbbb990dacddff5aef15a6249110bac757a143b1d945f8511",
+      "bytes": 4249
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_circle.png",
+      "sha256": "f92c633af6bc049bc6f19765c39bbd8cd6b1ac119ee508cd5495b2f4f952d687",
+      "bytes": 4406
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_crown.png",
+      "sha256": "bbc55b26c57a3183867e88e8ae9edae5f3f9cb657aecdb8a12b560501f977fc0",
+      "bytes": 3684
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_diamond.png",
+      "sha256": "bf80daecf05cb5655e8cb8f69f96f94f3c365fd2f340add44a534207b0af98ae",
+      "bytes": 2242
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_fire.png",
+      "sha256": "f843448d17d6042179f6778a138b13c059a5e053638d12081bc5a4732235d138",
+      "bytes": 5185
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_flag.png",
+      "sha256": "c1363c278c2b72089dd35d3cb0e528abb93f74865edfe19d5271567de725a824",
+      "bytes": 2611
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_flower.png",
+      "sha256": "e4784e0b2ca4845c6a0126c6fc5be2b585633cb67cac0b59bf6ad2b7a462e38e",
+      "bytes": 7641
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_heart.png",
+      "sha256": "a80ca0527792adfbd254cc0221d9ee3295cf9e89159f78ef8a2d3e79eae29c9b",
+      "bytes": 4099
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_hexagon.png",
+      "sha256": "7a905ea1d7acd3fd752891c8a21cc109b38e489a77ffa5a31c0c183b9975075b",
+      "bytes": 4255
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_left_arrow.png",
+      "sha256": "b567e5becbc73903461d8a8e05360e461c6eb04691f74830a3490a7b7db6a2ba",
+      "bytes": 2693
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_lightning.png",
+      "sha256": "90652e361aeb9228df7ea495be017c7a6721a0b18284ec445f1a9559b90bf0b0",
+      "bytes": 3259
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_music_note.png",
+      "sha256": "db507caf31ea290e7e616d831020e6da8fc53f9b9493ba0e50b174c7d26cf065",
+      "bytes": 3278
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_plus.png",
+      "sha256": "f016fde460a1f048b87e442f7cc56017bbceea6b9af5dffbd8367324ba99dea2",
+      "bytes": 980
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_right_arrow.png",
+      "sha256": "fbef015a3cfe5c2783dea3974417836213ca0c156f94309826945853a95299fe",
+      "bytes": 2472
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_smile.png",
+      "sha256": "3960c9b91f90ef59b0b94a309a22a03e5699a6d1fb74e25b54b913bbd3f8349f",
+      "bytes": 7807
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_sparkle.png",
+      "sha256": "7557c3f0e9e791a5453fba43306c8afacec2afbd14ae6194c75420f887834461",
+      "bytes": 3636
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_sparkles.png",
+      "sha256": "849f2ba3b030323a6f8148392ea49c6d550dc95dcf5b62445cb5afb865ded090",
+      "bytes": 3774
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_speech_bubble.png",
+      "sha256": "f443cd296d521799d0d94fb7f12da87ed0a60511956af587b1777bc528aee040",
+      "bytes": 4418
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_square.png",
+      "sha256": "3d7fe332ede260a3101e6fbabd26d0be93c9fe2d46e15875dcd7a2c475ee61b6",
+      "bytes": 1811
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_star.png",
+      "sha256": "2e3fdaffa4388809007a05e5714b06162b5e1f767568ca0b4d25787a090a0157",
+      "bytes": 4651
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_sun.png",
+      "sha256": "7cebf8885bb2c7abd83f0d5bf15187a7a79267796bd0f0cce87d4d8a9394254b",
+      "bytes": 5214
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_kit_sticker_triangle.png",
+      "sha256": "45b566a387acf8713fa2478227d8ca9675b77b57ac4ea5c89e1c54c5d983c029",
+      "bytes": 4225
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_sticker_premium_heart.webp",
+      "sha256": "3f3e062cd9b3861104832e1e651f224f55b915b44ebdb86ca18f8384105084b9",
+      "bytes": 30796
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_sticker_premium_sparkle.webp",
+      "sha256": "5542fa22d1a9cacfbcc328017d22f7c2c03902b6172ebce661beff088e776859",
+      "bytes": 27110
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_sticker_premium_star.webp",
+      "sha256": "45b344244aa3be6775ba2effef957b42197dffb61d224c01800b4c97c3966f9a",
+      "bytes": 39210
+    },
+    {
+      "path": "core/media/src/main/res/drawable-nodpi/editor_sticker_premium_sun.webp",
+      "sha256": "fa4f03bbeb4a110944ca55a93be049953f73bf1f5986b4921a4dddca1fcd27fa",
+      "bytes": 48732
+    }
+  ]
+}

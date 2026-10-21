@@ -1,0 +1,15 @@
+# Stage 9 editor UI and interaction implementation
+
+The editor uses an original near-black navy/graphite palette, cool low-contrast borders, blue/violet actions and consistent active-selection accents. The main portrait preview now takes about 53% of available editor height (bounded 220–440 dp), replacing much of the unused area shown in the owner's recording. Tool panels retain bounded, scrollable bodies and pinned 48 dp confirmation actions. Keyboard mode retains a useful preview and dismiss/apply controls; landscape retains the existing split workspace.
+
+`EditorToolState` owns mutually exclusive typed tool routes, including text and transition drafts. Closing a stale tool cannot close a newer route. PiP selection is a `TimelineSelection.Overlay`, and the legacy selected-overlay accessor is derived from that one selection. Audio-tool compatibility is checked against the selected audio object.
+
+`LayerCanvasHandles` replaces the separate production text/sticker/PiP gesture owners. It uses one fitted canvas plane for hit testing, preview coordinates and handles, with bottom-to-top layer order matching rendering. It supports tap-to-select/edit, drag, corner resize, pinch/rotate, a rotation handle and center snap guides. Positive Y/rotation follow Android canvas geometry. Completed gestures create one history entry; cancellation restores the previous transform. Sticker handles account for asset aspect ratio; PiP accounts for source rotation/crop and its explicit Fit/Fill control.
+
+Add Text explicitly creates one selected draft ID. Editing an existing caption reuses its ID. Text Apply adds/updates once; Cancel removes/restores the draft without new history entries. Draft text is omitted/restored when an unrelated save races a panel. Content, family/size, alignment, color, outline, shadow, background, position/timing and retained animations use the same rasterizer and canvas pass in preview/export. The existing font catalog is retained; no unsupported font-weight controls were added.
+
+Visual effects/mask/chroma/blend panels preview unpublished document drafts and commit on Apply. Keyframe authoring uses clip-local times, maps navigation back into project time and edits the current key's value/interpolation. Mask insertion no longer overwrites earlier properties' values. PiP/sticker immediate-edit panels retain their explicit Close/Done and Undo labeling.
+
+The timeline keeps the established canonical `TimelineViewport`, gesture ownership, trim/reorder/split command paths, fling, pinch anchor and track alignment. Double intermediate arithmetic improves time/pixel conversion. Visible/overscan source-window thumbnails replace full-source sparse strips; stale loads cancel with `collectLatest`, and both UI and repository bitmap references retain byte bounds. Photo strips render even without a video source range.
+
+The UI includes a real Retry Preview action with retained error details. Runtime touch comfort, keyboard layout, TalkBack behavior, all aspect ratios and actual smoothness remain owner-verification items. No screenshots or device interaction were performed for this rewrite.
